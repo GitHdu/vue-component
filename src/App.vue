@@ -3,6 +3,8 @@
     <form-demo />
     <i-display :code="code"></i-display>
     <alert-demo></alert-demo>
+    <table-render-demo></table-render-demo>
+    <table-slot-demo></table-slot-demo>
   </div>
 </template>
 
@@ -10,6 +12,8 @@
 import formDemo from './form_demo'
 import alertDemo from './alertDemo'
 import iDisplay from './components/display/display.vue'
+import tableRenderDemo from './tableRenderDemo'
+import tableSlotDemo from './tableSlotDemo'
 import defaultCode from './default-code.js'
 
 export default {
@@ -17,7 +21,9 @@ export default {
   components: {
     formDemo,
     iDisplay,
-    alertDemo
+    alertDemo,
+    tableRenderDemo,
+    tableSlotDemo
   },
   data () {
     return {
