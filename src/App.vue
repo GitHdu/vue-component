@@ -2,11 +2,13 @@
   <div id="app">
     <form-demo />
     <i-display :code="code"></i-display>
+    <alert-demo></alert-demo>
   </div>
 </template>
 
 <script>
 import formDemo from './form_demo'
+import alertDemo from './alertDemo'
 import iDisplay from './components/display/display.vue'
 import defaultCode from './default-code.js'
 
@@ -14,7 +16,8 @@ export default {
   name: 'app',
   components: {
     formDemo,
-    iDisplay
+    iDisplay,
+    alertDemo
   },
   data () {
     return {
