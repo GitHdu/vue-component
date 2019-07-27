@@ -5,6 +5,7 @@
     <alert-demo></alert-demo>
     <table-render-demo></table-render-demo>
     <table-slot-demo></table-slot-demo>
+    <tree-demo />
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import alertDemo from './alertDemo'
 import iDisplay from './components/display/display.vue'
 import tableRenderDemo from './tableRenderDemo'
 import tableSlotDemo from './tableSlotDemo'
+import treeDemo from './treeDemo'
 import defaultCode from './default-code.js'
 
 export default {
@@ -23,7 +25,8 @@ export default {
     iDisplay,
     alertDemo,
     tableRenderDemo,
-    tableSlotDemo
+    tableSlotDemo,
+    treeDemo
   },
   data () {
     return {
